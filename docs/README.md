@@ -1,6 +1,6 @@
 ---
 home: true
-title: 首页
+title: Home
 heroImage: /images/logo.png
 actionText: 攀大指南
 actionLink: /guide/
