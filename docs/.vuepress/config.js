@@ -15,6 +15,7 @@ module.exports = {
   ],
   themeConfig: {
     logo: '/images/logo.png',
+    search: false,
 
     nav: [
       { text: '攀大指南', link: '/guide/' },
