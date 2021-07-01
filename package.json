@@ -1,0 +1,16 @@
+{
+  "name": "tobackrise-1",
+  "version": "1.0.0",
+  "description": "a letter to our junior",
+  "main": "index.js",
+  "repository": "https://github.com/oopstls/tobackrise",
+  "author": "oopstls",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
