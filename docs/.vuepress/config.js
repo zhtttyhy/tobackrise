@@ -19,6 +19,7 @@ module.exports = {
     nav: [
       { text: '攀大指南', link: '/guide/' },
       { text: '文章', link: '/article/' },
+      { text: '留言板', link: '/board/'},
     ],
 
     sidebar: {
@@ -30,7 +31,7 @@ module.exports = {
       '/article/': [
         '',
         'a',
-      ]
+      ],
     },
     
     lastUpdated: true,
