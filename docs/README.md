@@ -1,12 +1,8 @@
 ---
 home: true
-title: Home
 heroImage: /images/logo.png
 actionText: 攀大指南
 actionLink: /guide/
-features:
-  - title: 
-    details: 
 footer: Copyright © 2021-present oopstls
 ---
 
@@ -23,3 +19,16 @@ This page is not finished now.
 Please wait.
 
 ps: 评论模块一直不兼容搞了好几天😭。
+
+<script>
+  export default {
+    mounted() {
+      this.setTitle();
+    },
+    methods: {
+      setTitle() {
+        document.title = "首页";
+      },
+    },
+  };
+</script>
