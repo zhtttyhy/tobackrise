@@ -1,7 +1,7 @@
 module.exports = {
   lang: 'zh-CN',
   title: ' ',
-  description: '一些记录',
+  description: ' ',
   base: '/tobackrise/',
   head: [
     // favicon
@@ -31,6 +31,12 @@ module.exports = {
         '',
         'a',
       ]
-    }
+    },
+    
+    lastUpdated: true,
+    repo: 'oopstls/tobackrise',
+    docsDir: 'docs',
+    docsBranch: 'main',
+    editLinks: true,
   }
 }

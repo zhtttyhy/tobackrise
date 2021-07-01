@@ -1,14 +1,9 @@
 ---
 home: true
-title: Home
+title: 首页
 heroImage: /images/logo.png
-actions:
-  - text: 攀大指南
-    link: /guide/
-    type: primary
-  - text: 文章
-    link: /article/
-    type: secondary
+actionText: 攀大指南
+actionLink: /guide/
 features:
   - title: 
     details: 

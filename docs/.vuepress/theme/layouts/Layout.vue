@@ -32,7 +32,7 @@
 
 <script>
 import ParentLayout from "@parent-theme/layouts/Layout.vue";
-const envId = "https://tobackrise-twikoo-r2s1x5ab9-oopstls.vercel.app/";
+const envId = "https://tobackrise-twikoo-r2s1x5ab9-oopstls.vercel.app";
 export default {
   name: "Layout",
   components: {
@@ -56,7 +56,7 @@ export default {
       }
     },
     onRoute(to, from) {
-      if (to.path !== from.path) this.initTwikoo();
+      this.initTwikoo();
     },
   },
 };
