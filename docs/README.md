@@ -18,8 +18,6 @@ This page is not finished now.
 
 Please wait.
 
-ps: 评论模块一直不兼容搞了好几天😭。
-
 <script>
   export default {
     mounted() {
