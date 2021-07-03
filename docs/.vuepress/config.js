@@ -2,7 +2,7 @@ module.exports = {
   lang: 'zh-CN',
   title: ' ',
   description: ' ',
-  base: '/tobackrise/',
+  base: '/',
   head: [
     // favicon
     [
@@ -36,7 +36,7 @@ module.exports = {
     },
     
     lastUpdated: true,
-    repo: 'oopstls/tobackrise',
+    repo: 'hululushp/tobackrise',
     docsDir: 'docs',
     docsBranch: 'main',
     editLinks: true,
